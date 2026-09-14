@@ -4,18 +4,18 @@ cask "perch" do
 
   url "https://github.com/itscool/perch/releases/download/v#{version}/Perch-#{version}.dmg"
   name "Perch"
-  desc "Mac menu bar controls for safer agents, displays, keyboards, and lid-aware sleep"
+  desc "Menu bar controls for safer agents, displays, keyboards, and lid-aware sleep"
   homepage "https://github.com/itscool/perch"
 
   depends_on arch: :arm64
-  depends_on macos: ">= :tahoe"
+  depends_on macos: :tahoe
 
   app "Perch.app"
 
   zap trash: [
     "~/Library/Application Support/Perch",
-    "~/Library/Preferences/local.scott.perch.plist",
     "~/Library/LaunchAgents/local.scott.perch.guardian.plist",
     "~/Library/LaunchAgents/local.scott.perch.input.plist",
+    "~/Library/Preferences/local.scott.perch.plist",
   ]
 end
