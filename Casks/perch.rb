@@ -7,6 +7,7 @@ cask "perch" do
   desc "Menu bar controls for safer agents, displays, keyboards, and lid-aware sleep"
   homepage "https://github.com/itscool/perch"
 
+  auto_updates true
   depends_on arch: :arm64
   depends_on macos: :tahoe
 
