@@ -1,9 +1,9 @@
 class Dirktui < Formula
   desc "Column file browser for the shell: dirk cd's, opens, and hands paths to the command line"
   homepage "https://github.com/itscool/homebrew-tap"
-  url "https://github.com/itscool/homebrew-tap/releases/download/dirktui-v0.1.5/dirktui-0.1.5-arm64.tar.gz"
-  sha256 "49def503f7fb9424af636d73bff39c0108e30b1df82bfb73e661d01631279f31"
-  version "0.1.5"
+  url "https://github.com/itscool/homebrew-tap/releases/download/dirktui-v0.2.0/dirktui-0.2.0-arm64.tar.gz"
+  sha256 "191cf49a8635afcc69fe65e964fcadc2a5f37ad785e6bb06842d43963e76dad4"
+  version "0.2.0"
 
   depends_on arch: :arm64
   depends_on :macos
