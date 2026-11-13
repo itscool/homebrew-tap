@@ -4,7 +4,7 @@ cask "perch" do
 
   url "https://github.com/itscool/perch/releases/download/v#{version}/Perch-#{version}.dmg"
   name "Perch"
-  desc "Menu bar controls for safer agents, displays, keyboards, and lid-aware sleep"
+  desc "Run one desk across several computers: monitors, keyboard, mouse, clipboard"
   homepage "https://github.com/itscool/perch"
 
   auto_updates true
